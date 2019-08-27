@@ -1,12 +1,5 @@
 $(document).ready(function () {
-    let background = document.querySelector(".background");
-    let currentWidth = document.styleSheets[0].cssRules[0].style.width;
-    
     // Set new width
-    // function widen() {
-    //     document.styleSheets[0].cssRules[0].style.width = "100%";
-    // }
-
     let i = 0;
     let dd_array = ['Brand, Design & Development', 'Design & Development', 'Design & Development', 'Brand & Design', 'Design & Development', 'Design & Development', 'Design & Development', 'Brand & Design'];
 
@@ -25,6 +18,13 @@ $(document).ready(function () {
         $('.ddp').html(dd_array[i]);
         // $('.ddp').show("slide", {direction: "right"}, "fast");
     })
+
+    $("p:contains('betches')").mouseover(function () {
+        $(".flexb img[src='./images/1.jpg']").css({"transition": "linear 500ms",
+            "transition-delay": "3600ms", "display": "inherit", "transform": "scale(1, 1)"});
+        console.log('done');
+    })
+
 
     // $('.pro').mouseleave(function () { 
     //     document.styleSheets[0].cssRules[15].style.width = "10%";
