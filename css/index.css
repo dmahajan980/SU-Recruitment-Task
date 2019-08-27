@@ -54,9 +54,7 @@ body
 .flexb
 {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    
+    bottom: 0;    
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -64,12 +62,11 @@ body
 
 .template
 {
-    width: 100%;
-    transition: linear 500ms;
-    transition-delay: 600ms;
-    opacity: 0.8;
-    transform: scale(0.8, 0.8);
-    display: none;
+    height: 130%;
+    transition: all 250ms linear;
+    opacity: 0;
+    z-index: 1;
+    transform: scale(1, 1);
 }
 
 /* .template
@@ -208,11 +205,12 @@ nav .menu p, nav .menu::after
     text-align: center;
 }
 
-.pro::before/*, .pro:nth-child(2)::before, .pro:nth-child(3)::before,
+/* .pro::before, .pro:nth-child(2)::before, .pro:nth-child(3)::before, 
 .pro:nth-child(4)::before, .pro:nth-child(5)::before, .pro:nth-child(6)::before,
 .pro:nth-child(7)::before, .pro:nth-child(8)::before */
+.in, .pro::before
 {
-    content: attr(data-text);
+    /* content: attr(data-text); */
     height: 100%;
     width: 100%;
     position: absolute;
@@ -220,11 +218,21 @@ nav .menu p, nav .menu::after
     background-color: white;
     direction: rtl;
     right: 0;
-    width: 50%;
     overflow: hidden;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: linear 250ms;
+}
+
+.in
+{
+    width: 50%;
+}
+
+.pro::before
+{
+    content: attr(data-text);
+    width: 0;
 }
 
 .pro:hover:before
