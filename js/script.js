@@ -6,12 +6,18 @@ $(document).ready(function () {
     $('.pro').mouseover(function () { 
         // document.styleSheets[0].cssRules[15].style.backgroundColor = "blue";
         document.querySelector('.headline').style.backgroundImage = "-webkit-linear-gradient(left, white 50%, white 50%)";
-        if (i == 7) {
-            i = 0;
-        }
-        else {
-            i++;
-        }
+        
+        $(".ddp").css("top","20px");
+        setTimeout(function() {
+            if (i == 7) {
+                i = 0;
+            }
+            else {
+                i++;
+            }
+            $(".ddp").css("top","0");
+        }, 600);
+
         document.styleSheets[0].cssRules[5].style.width = "100%";
         document.querySelector('.ddp').style.color = "white";
         // document.querySelectorAll(".in").style.width = "0";
