@@ -20,8 +20,9 @@ $(document).ready(function () {
     })
 
     $("p:contains('betches')").mouseover(function () {
-        $(".flexb img[src='./images/1.jpg']").css({"transition": "linear 500ms",
-            "transition-delay": "3600ms", "display": "inherit", "transform": "scale(1, 1)"});
+        // $(".flexb img[src='./images/1.jpg']").css({"transition": "linear 500ms",
+        //     "transition-delay": "3600ms", "display": "inherit", "transform": "scale(1, 1)"});
+        $(".flexb img[src='./images/1.jpg']").show("fast");
         console.log('done');
     })
 
