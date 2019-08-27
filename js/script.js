@@ -26,56 +26,56 @@ $(document).ready(function () {
     let t = 550
     $("p:contains('betches')").mouseover(function () {
         setTimeout(function() {
-            $(".flexb img[src='./images/1.jpg']").css({"opacity": "0.7", "transform": "scale(1.05, 1.05)"});
+            $(".flexb img[src='./images/1.jpg']").css({"opacity": "0.7", "transform": "scale(1.1, 1.1)"});
         }, t);
         t = 0;
     })
 
     $("p:contains('allpro')").delay(400).mouseover(function () {
         setTimeout(function() {
-            $(".flexb img[src='./images/2.jpg']").css({"opacity": "0.7", "transform": "scale(1.05, 1.05)"});
+            $(".flexb img[src='./images/2.jpg']").css({"opacity": "0.7", "transform": "scale(1.1, 1.1)"});
         }, t);
         t = 0;
     })
     
     $("p:contains('cornerstone')").delay(400).mouseover(function () {
         setTimeout(function() {
-            $(".flexb img[src='./images/3.jpg']").css({"opacity": "0.7", "transform": "scale(1.05, 1.05)"});
+            $(".flexb img[src='./images/3.jpg']").css({"opacity": "0.7", "transform": "scale(1.1, 1.1)"});
         }, t);
         t = 0;
     })
     
     $("p:contains('taylor')").delay(400).mouseover(function () {
         setTimeout(function() {
-            $(".flexb img[src='./images/4.jpg']").css({"opacity": "0.7", "transform": "scale(1.05, 1.05)"});
+            $(".flexb img[src='./images/4.jpg']").css({"opacity": "0.7", "transform": "scale(1.1, 1.1)"});
         }, t);
         t = 0;
     })
     
     $("p:contains('modernmd')").delay(400).mouseover(function () {
         setTimeout(function() {
-            $(".flexb img[src='./images/5.jpg']").css({"opacity": "0.7", "transform": "scale(1.05, 1.05)"});
+            $(".flexb img[src='./images/5.jpg']").css({"opacity": "0.7", "transform": "scale(1.1, 1.1)"});
         }, t);
         t = 0;
     })
     
     $("p:contains('storyverse')").delay(400).mouseover(function () {
         setTimeout(function() {
-            $(".flexb img[src='./images/6.jpg']").css({"opacity": "0.7", "transform": "scale(1.05, 1.05)"});
+            $(".flexb img[src='./images/6.jpg']").css({"opacity": "0.7", "transform": "scale(1.1, 1.1)"});
         }, t);
         t = 0;
     })
     
     $("p:contains('gtscareers')").delay(400).mouseover(function () {
         setTimeout(function() {
-            $(".flexb img[src='./images/7.jpg']").css({"opacity": "0.7", "transform": "scale(1.05, 1.05)"});
+            $(".flexb img[src='./images/7.jpg']").css({"opacity": "0.7", "transform": "scale(1.1, 1.1)"});
         }, t);
         t = 0;
     })
     
     $("p:contains('hennessey')").delay(400).mouseover(function () {
         setTimeout(function() {
-            $(".flexb img[src='./images/8.jpg']").css({"opacity": "0.7", "transform": "scale(1.05, 1.05)"});
+            $(".flexb img[src='./images/8.jpg']").css({"opacity": "0.7", "transform": "scale(1.1, 1.1)"});
         }, t);
         t = 0;
     })
