@@ -1,2 +1,2 @@
 # SU-Recruitment-Task
-Recruitment task for Student Union Tech Team.
+Recruitment task for Students' Union Technical Team.
